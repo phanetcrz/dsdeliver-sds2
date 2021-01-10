@@ -1,4 +1,5 @@
 import './App.css';
+import Footer from './Footer';
 import Home from './Home';
 //import Hello from './Hello';
 //import Counter from './Counter';
@@ -10,7 +11,7 @@ function App() {
     <>
       <NavBar/>
       <Home/>
-
+      
 
 
 
