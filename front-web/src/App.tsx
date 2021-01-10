@@ -1,4 +1,5 @@
 import './App.css';
+import Home from './Home';
 //import Hello from './Hello';
 //import Counter from './Counter';
 
@@ -6,8 +7,9 @@ import NavBar from './NavBar';
 
 function App() {
   return (
-    <div>
+    <>
       <NavBar/>
+      <Home/>
 
 
 
@@ -30,7 +32,7 @@ function App() {
         {/* <Hello message="Nélio"/> */}
         {/* <Hello message="SDS2"/> */}
         {/* <Hello message="DevSuperior"/> */}
-    </div>
+    </>
   );
 }
 
