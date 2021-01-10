@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+:root {  /* vai estar disponívl na raiz da aplicação e ser usada em qualquer lugar da aplicação */ 
+  --primary-color: #da5c5c;/*  são variaveis de css --primary-color */
+  --primary-hover-color: #a74b4b;
+  --dark-color: #263238;
+  --secondary-color: #9E9E9E;
+  --light-color: #F5F5F5;
+}
+
+html, body {  /* Retiram as margens do navegador */
+  margin: 0;
+  padding:0;
+}
+
+body { /* Diz que a familia de fontes de toda a aplicação será Open Sans e é o local ande você seta quando fonte usar, não basta apenas fazer o import  */
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {/*  responsável por remover os sublinhado de todas as tag's "a" */ 
+  text-decoration: none;
+}
+ 

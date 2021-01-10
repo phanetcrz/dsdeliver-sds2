@@ -2,10 +2,12 @@ import './App.css';
 //import Hello from './Hello';
 //import Counter from './Counter';
 
+import NavBar from './NavBar';
+
 function App() {
   return (
     <div>
-      
+      <NavBar/>
 
 
 
