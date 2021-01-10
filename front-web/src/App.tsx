@@ -1,16 +1,17 @@
 import './App.css';
-import Footer from './Footer';
-import Home from './Home';
+
 //import Hello from './Hello';
 //import Counter from './Counter';
 
-import NavBar from './NavBar';
+
+import Routes from './Routes';
 
 function App() {
   return (
     <>
-      <NavBar/>
-      <Home/>
+      
+      <Routes />
+      
       
 
 
