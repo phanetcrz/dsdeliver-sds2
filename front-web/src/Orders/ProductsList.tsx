@@ -12,7 +12,7 @@ function ProductsList({ products, selectedProducts, onSelectProduct}: Props){
     return(
         <div className="orders-list-container">
             <div className="orders-list-items">
-                {products.map(product => (     //--Map vai tranformar uma lista em elementos html
+                {products.map(product => (     
                     <ProductCard 
                         key={product.id} 
                         product={product} 
