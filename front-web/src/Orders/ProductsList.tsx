@@ -8,7 +8,7 @@ type Props = { //--utilizado para passar parametro para o componente adicionando
     onSelectProduct: (product: Product) => void;    
 }
 
-function ProductsList({ products, selectedProducts, onSelectProduct}: Props){
+function ProductsList({ products, onSelectProduct, selectedProducts }: Props){
     return(
         <div className="orders-list-container">
             <div className="orders-list-items">
